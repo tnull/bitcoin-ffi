@@ -1,2 +1,8 @@
-namespace bitcoin_ffi {
+namespace bitcoin_ffi {};
+
+enum Network {
+  "Bitcoin",
+  "Testnet",
+  "Signet",
+  "Regtest",
 };
